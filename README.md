@@ -9,7 +9,6 @@ Through extensive **feature engineering**, **model ensembling**, and **class imb
 - **Ensembled model** combining a Neural Network, XGBoost, and Random Forest for robust predictive performance.
 - **Feature engineering** included interaction terms, log transformations, behavioral ratios, and bucketed features.
 - **Class imbalance handled** without oversampling, using `class_weight`, `scale_pos_weight`, and early stopping techniques.
-- **Model interpretability** via SHAP and permutation importance guided feature pruning and refinement.
 - **Manual hyperparameter tuning** focused on high-impact parameters to optimize performance with minimal compute cost.
 
 ## 📈 Final Performance
