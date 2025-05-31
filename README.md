@@ -11,7 +11,17 @@ Through extensive **feature engineering**, **model ensembling**, and **class imb
 - **Class imbalance handled** without oversampling, using `class_weight`, `scale_pos_weight`, and early stopping techniques.
 - **Manual hyperparameter tuning** focused on high-impact parameters to optimize performance with minimal compute cost.
 
+## ▶️ Run the Training Pipeline
+The source code can be found in the _src_ folder. Before running the code, make sure the _data_ folder contains _train.csv_ and _test.csv_, and make sure all of the requirements are installed by running:
+```
+pip install -r requirements.txt
+```
+Then run:
+```
+python main.py
+```
+
 ## 📈 Final Performance
 
 - **ROC AUC:** 0.75  
-- **Leaderboard Percentile:** 91st
+- **Leaderboard Percentile** (on Coursera Leaderboard): 91st
