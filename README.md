@@ -1,5 +1,7 @@
 # 📊 Churn Prediction for Subscription Services
 
+## 🧠 Overview
+
 This project (rooted from a Data Science Challenge powered by Coursera) tackles the industry-critical problem of **customer churn prediction** for a video streaming service using a real-world, imbalanced dataset. The goal is to identify customers at high risk of canceling their subscriptions — enabling targeted retention strategies.
 
 Through extensive **feature engineering**, **model ensembling**, and **class imbalance handling**, the final solution achieved a **ROC AUC score of 0.75**, placing it in the **91st percentile** on the leaderboard.
